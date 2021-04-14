@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.topmenu {
+  background-color: #333;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+.nav_ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+.logo {
+  float: left;
+  padding: 25px;
+  color: red;
+  font-size: 1.5em;
+}
+.nav_ul li {
+  list-style-type: none;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  height: 30px;
+}
+.nav_ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px;
+}
+
+.nav_ul li:hover {
+  background-color: #2fff;
+}
